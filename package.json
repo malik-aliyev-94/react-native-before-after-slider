@@ -1,6 +1,6 @@
 {
   "name": "@malik.aliyev.94/react-native-before-after-slider",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Before-after comparison slider for a react native applications",
   "main": "index.js",
   "scripts": {
