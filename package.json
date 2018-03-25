@@ -1,0 +1,25 @@
+{
+  "name": "@malik.aliyev.94/react-native-before-after-slider",
+  "version": "1.0.0",
+  "description": "Before-after comparison slider for a react native applications",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/malik-aliyev-94/react-native-before-after-slider.git"
+  },
+  "keywords": [
+    "react-native",
+    "slider",
+    "before-after",
+    "comparison"
+  ],
+  "author": "Malik Aliyev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/malik-aliyev-94/react-native-before-after-slider/issues"
+  },
+  "homepage": "https://github.com/malik-aliyev-94/react-native-before-after-slider#readme"
+}

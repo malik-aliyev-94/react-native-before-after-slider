@@ -20,14 +20,6 @@ const After = (props) => (
   </View>
 );
 
-// const DefaultDragger = (props) => (
-//   <View {...props.parent._panResponder.panHandlers} style={{height: props.state.height, width: props.state.draggerWidth, backgroundColor: 'transparent', position: 'absolute', top: 0, zIndex: 10, marginLeft: -props.state.draggerWidth/2, left: props.state.left}}>
-//     {/*<View style={{width: 50, height: 50, backgroundColor: '#000', position: 'absolute', bottom: -46, left: (-25+props.state.draggerWidth/2), borderRadius: 25}} />*/}
-//     <View style={{position: 'absolute', top: 0, right: 24, bottom: 0, left: 24, backgroundColor: '#fff', opacity: .6}}></View>
-//     <View style={{position: 'absolute', top: props.state.height/2, left: 10, backgroundColor: '#fff', opacity: .9, width: 30, height: 30, marginTop: -15, transform: [{ rotate: '45deg'}]}}></View>
-//   </View>
-// );
-
 const DefaultDragger = (props) => (
   <View {...props.parent._panResponder.panHandlers} style={{height: props.state.height, width: props.state.draggerWidth, backgroundColor: 'transparent', position: 'absolute', top: 0, zIndex: 10, marginLeft: -props.state.draggerWidth/2, left: props.state.left}}>
     <View style={{opacity: .6, width: 50, height: 50, overflow: 'hidden', backgroundColor: '#FFF', borderRadius: 25, marginTop: (props.state.height/2-25)}}>
